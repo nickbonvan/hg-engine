@@ -10,55 +10,55 @@
 
 encounterdata   0   // New Bark Town
 
-walkrate 0
+walkrate 25
 surfrate 15
 rocksmashrate 0
 oldrodrate 25
 goodrodrate 50
 superrodrate 75
-walklevels 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+walklevels 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0
 
 // morning encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
+pokemon SPECIES_DIANCIE
+pokemon SPECIES_GROUDON
+pokemon SPECIES_BULBASAUR
+pokemon SPECIES_EEVEE
+pokemon SPECIES_DIANCIE
+pokemon SPECIES_GROUDON
+pokemon SPECIES_BULBASAUR
+pokemon SPECIES_EEVEE
+pokemon SPECIES_DIANCIE
+pokemon SPECIES_GROUDON
+pokemon SPECIES_BULBASAUR
+pokemon SPECIES_EEVEE
 
 // day encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
+pokemon SPECIES_DIANCIE
+pokemon SPECIES_GROUDON
+pokemon SPECIES_BULBASAUR
+pokemon SPECIES_EEVEE
+pokemon SPECIES_DIANCIE
+pokemon SPECIES_GROUDON
+pokemon SPECIES_BULBASAUR
+pokemon SPECIES_EEVEE
+pokemon SPECIES_DIANCIE
+pokemon SPECIES_GROUDON
+pokemon SPECIES_BULBASAUR
+pokemon SPECIES_EEVEE
 
 // night encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
+pokemon SPECIES_DIANCIE
+pokemon SPECIES_GROUDON
+pokemon SPECIES_BULBASAUR
+pokemon SPECIES_EEVEE
+pokemon SPECIES_DIANCIE
+pokemon SPECIES_GROUDON
+pokemon SPECIES_BULBASAUR
+pokemon SPECIES_EEVEE
+pokemon SPECIES_DIANCIE
+pokemon SPECIES_GROUDON
+pokemon SPECIES_BULBASAUR
+pokemon SPECIES_EEVEE
 
 // hoenn encounter slots
 pokemon SPECIES_NONE

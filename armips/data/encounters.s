@@ -16,47 +16,47 @@ rocksmashrate 0
 oldrodrate 25
 goodrodrate 50
 superrodrate 75
-walklevels 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0
+walklevels 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5
 
 // morning encounter slots
-pokemon SPECIES_DIANCIE
-pokemon SPECIES_GROUDON
+pokemon SPECIES_FROAKIE
+pokemon SPECIES_BAGON
 pokemon SPECIES_BULBASAUR
 pokemon SPECIES_EEVEE
-pokemon SPECIES_DIANCIE
-pokemon SPECIES_GROUDON
+pokemon SPECIES_FROAKIE
+pokemon SPECIES_BAGON
 pokemon SPECIES_BULBASAUR
 pokemon SPECIES_EEVEE
-pokemon SPECIES_DIANCIE
-pokemon SPECIES_GROUDON
+pokemon SPECIES_FROAKIE
+pokemon SPECIES_BAGON
 pokemon SPECIES_BULBASAUR
 pokemon SPECIES_EEVEE
 
 // day encounter slots
-pokemon SPECIES_DIANCIE
-pokemon SPECIES_GROUDON
+pokemon SPECIES_FROAKIE
+pokemon SPECIES_BAGON
 pokemon SPECIES_BULBASAUR
 pokemon SPECIES_EEVEE
-pokemon SPECIES_DIANCIE
-pokemon SPECIES_GROUDON
+pokemon SPECIES_FROAKIE
+pokemon SPECIES_BAGON
 pokemon SPECIES_BULBASAUR
 pokemon SPECIES_EEVEE
-pokemon SPECIES_DIANCIE
-pokemon SPECIES_GROUDON
+pokemon SPECIES_FROAKIE
+pokemon SPECIES_BAGON
 pokemon SPECIES_BULBASAUR
 pokemon SPECIES_EEVEE
 
 // night encounter slots
-pokemon SPECIES_DIANCIE
-pokemon SPECIES_GROUDON
+pokemon SPECIES_FROAKIE
+pokemon SPECIES_BAGON
 pokemon SPECIES_BULBASAUR
 pokemon SPECIES_EEVEE
-pokemon SPECIES_DIANCIE
-pokemon SPECIES_GROUDON
+pokemon SPECIES_FROAKIE
+pokemon SPECIES_BAGON
 pokemon SPECIES_BULBASAUR
 pokemon SPECIES_EEVEE
-pokemon SPECIES_DIANCIE
-pokemon SPECIES_GROUDON
+pokemon SPECIES_FROAKIE
+pokemon SPECIES_BAGON
 pokemon SPECIES_BULBASAUR
 pokemon SPECIES_EEVEE
 

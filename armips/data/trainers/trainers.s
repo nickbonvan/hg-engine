@@ -280,18 +280,18 @@ trainerdata 8, "Joey"
         //mon 1
         ivs 200
         abilityslot 0
-        level 6
-        monwithform SPECIES_RATTATA, 1
+        level 5
+        pokemon SPECIES_PICHU
         item ITEM_NONE
-        move MOVE_BITE
-        move MOVE_FOCUS_ENERGY
-        move MOVE_TAIL_WHIP
-        move MOVE_SUPER_FANG
-        ability ABILITY_HUSTLE
+        move MOVE_NUZZLE
+        move MOVE_SWEET_KISS
+        move MOVE_CHARM
+        move MOVE_THUNDER_SHOCK
+        ability ABILITY_STATIC
         ball ITEM_POKE_BALL
         setivs 31, 31, 31, 31, 31, 31 // hp, atk, def, spd, spatk, spdef
         setevs 0, 0, 0, 0, 0, 0   // hp, atk, def, spd, spatk, spdef
-        nature NATURE_ADAMANT
+        nature NATURE_MODEST
         ballseal 0
 
         //mon 2
@@ -300,8 +300,8 @@ trainerdata 8, "Joey"
         level 6
         pokemon SPECIES_PIKACHU
         item ITEM_NONE
-        move MOVE_NUZZLE
-        move MOVE_SWEET_KISS
+        move MOVE_THUNDER_WAVE
+        move MOVE_QUICK_ATTACK
         move MOVE_DOUBLE_TEAM
         move MOVE_THUNDER_SHOCK
         ability ABILITY_STATIC
@@ -316,10 +316,10 @@ trainerdata 8, "Joey"
         abilityslot 0
         level 6
         pokemon SPECIES_SENTRET
-        item ITEM_KINGS_ROCK
+        item ITEM_TOXIC_ORB
         move MOVE_FURY_SWIPES
         move MOVE_QUICK_ATTACK
-        move MOVE_DEFENSE_CURL
+        move MOVE_FACADE
         move MOVE_FLING
         ability ABILITY_KEEN_EYE
         ball ITEM_POKE_BALL
@@ -336,7 +336,7 @@ trainerdata 8, "Joey"
         item ITEM_NONE
         move MOVE_DRAINING_KISS
         move MOVE_QUICK_ATTACK
-        move MOVE_POWER_UP_PUNCH //not sure if this works
+        move MOVE_POWER_UP_PUNCH
         move MOVE_CHARM
         ability ABILITY_LIMBER
         ball ITEM_POKE_BALL
@@ -349,13 +349,13 @@ trainerdata 8, "Joey"
         ivs 200
         abilityslot 0
         level 6
-        pokemon SPECIES_PACHIRISU
+        pokemon SPECIES_MARILL
         item ITEM_NONE
-        move MOVE_SPARK
-        move MOVE_GROWL
-        move MOVE_NUZZLE
-        move MOVE_QUICK_ATTACK
-        ability ABILITY_VOLT_ABSORB
+        move MOVE_DEFENSE_CURL
+        move MOVE_DRAINING_KISS
+        move MOVE_WATER_GUN
+        move MOVE_LIGHT_SCREEN
+        ability ABILITY_HUGE_POWER
         ball ITEM_POKE_BALL
         setivs 31, 31, 31, 31, 31, 31 // hp, atk, def, spd, spatk, spdef
         setevs 0, 0, 0, 0, 0, 0   // hp, atk, def, spd, spatk, spdef
@@ -1615,32 +1615,120 @@ trainerdata 46, "Martha"
         pokemon SPECIES_GASTLY
         ballseal 0
     endparty
-
+        
 trainerdata 47, "Mikey"
-    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainermontype TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_BALL | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_NATURE_SET
     trainerclass TRAINERCLASS_YOUNGSTER
-    nummons 2
+    nummons 6
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
-    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS
     battletype SINGLE_BATTLE
     endentry
 
     party 47
-        // mon 0
-        ivs 0
+        //mon 0
+        ivs 200
         abilityslot 0
-        level 2
+        level 6
         pokemon SPECIES_PIDGEY
+        item ITEM_NONE
+        move MOVE_GUST
+        move MOVE_SAND_ATTACK
+        move MOVE_GROWL
+        move MOVE_TWISTER
+        ability ABILITY_KEEN_EYE
+        ball ITEM_POKE_BALL
+        setivs 31, 31, 31, 31, 31, 31 // hp, atk, def, spd, spatk, spdef
+        setevs 0, 0, 0, 0, 0, 0   // hp, atk, def, spd, spatk, spdef
+        nature NATURE_JOLLY
         ballseal 0
 
         // mon 1
-        ivs 0
-        abilityslot 32
-        level 4
+        ivs 200
+        abilityslot 0
+        level 6
         pokemon SPECIES_RATTATA
+        item ITEM_NONE
+        move MOVE_HYPER_FANG
+        move MOVE_TAIL_WHIP
+        move MOVE_QUICK_ATTACK
+        move MOVE_PURSUIT
+        ability ABILITY_HUSTLE
+        ball ITEM_POKE_BALL
+        setivs 31, 31, 31, 31, 31, 31 // hp, atk, def, spd, spatk, spdef
+        setevs 0, 0, 0, 0, 0, 0   // hp, atk, def, spd, spatk, spdef
+        nature NATURE_ADAMANT
+        ballseal 0
+
+        // mon 2
+        ivs 200
+        abilityslot 0
+        level 6
+        pokemon SPECIES_LEDYBA
+        item ITEM_NONE
+        move MOVE_STRUGGLE_BUG
+        move MOVE_SWIFT
+        move MOVE_REFLECT
+        move MOVE_ROOST
+        ability ABILITY_RATTLED
+        ball ITEM_POKE_BALL
+        setivs 31, 31, 31, 31, 31, 31 // hp, atk, def, spd, spatk, spdef
+        setevs 0, 0, 0, 0, 0, 0   // hp, atk, def, spd, spatk, spdef
+        nature NATURE_NAUGHTY
+        ballseal 0
+
+        // mon 3
+        ivs 200
+        abilityslot 0
+        level 6
+        pokemon SPECIES_AIPOM
+        item ITEM_NONE
+        move MOVE_FURY_SWIPES
+        move MOVE_BOUNCE
+        move MOVE_ASTONISH
+        move MOVE_TICKLE
+        ability ABILITY_SKILL_LINK
+        ball ITEM_POKE_BALL
+        setivs 31, 31, 31, 31, 31, 31 // hp, atk, def, spd, spatk, spdef
+        setevs 0, 0, 0, 0, 0, 0   // hp, atk, def, spd, spatk, spdef
+        nature NATURE_ADAMANT
+        ballseal 0
+
+        // mon 4
+        ivs 200
+        abilityslot 0
+        level 6
+        pokemon SPECIES_FURFROU
+        item ITEM_ROCKY_HELMET
+        move MOVE_COTTON_GUARD
+        move MOVE_TACKLE
+        move MOVE_BITE
+        move MOVE_SNARL
+        ability ABILITY_FUR_COAT
+        ball ITEM_POKE_BALL
+        setivs 31, 31, 31, 31, 31, 31 // hp, atk, def, spd, spatk, spdef
+        setevs 0, 0, 0, 0, 0, 0   // hp, atk, def, spd, spatk, spdef
+        nature NATURE_IMPISH
+        ballseal 0
+
+        // mon 5
+        ivs 200
+        abilityslot 0
+        level 6
+        pokemon SPECIES_BUIZEL
+        item ITEM_NONE
+        move MOVE_WATER_GUN
+        move MOVE_MUD_SLAP
+        move MOVE_LOW_KICK
+        move MOVE_ICY_WIND
+        ability ABILITY_SWIFT_SWIM
+        ball ITEM_POKE_BALL
+        setivs 31, 31, 31, 31, 31, 31 // hp, atk, def, spd, spatk, spdef
+        setevs 0, 0, 0, 0, 0, 0   // hp, atk, def, spd, spatk, spdef
+        nature NATURE_SASSY
         ballseal 0
     endparty
 
